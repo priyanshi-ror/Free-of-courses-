@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Free Courses & Career Resources</title> 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+scroll-behavior: smooth;
+} 
+body{
+max-width: 420px;
+margin: auto;
+width: 100%;
+font-family: "Roboto", sans-serif;
+font-optical-sizing: auto;
+}
+main {
+background-image: url(https://media.istockphoto.com/id/1629474406/video/digital-data-protection-security-icon-binary-code-wave-blue-background.jpg?s=640x640&k=20&c=GXsCQKZnceOUUDJNdVvct3O5xNWa9IQf9LhxklP5n_g=);
+margin: auto;position: relative;
+background-repeat: no-repeat; 
+background-size: cover;
+height: 100vh;
+overflow: hidden;
+animation: backgroundMove 110s linear infinite}
+@keyframes backgroundMove {
+0% {background-position: top left;}
+100% {background-position: top right}}
+    
+nav{
+display: flex;
+background-color: darkgrey;
+padding: 15px;
+justify-content: space-between;}
+    
+nav a{
+text-decoration: none;
+color: #343333;
+text-transform: uppercase; 
+font-size: 13px;
+font-weight: 600;       
+}
+.search-form {
+display: flex;
+gap: 0.5rem;
+align-items: center;
+width: 100%;
+padding: 5px;
+justify-content: center;
+}
+
+.search-form select,
+.search-form input {
+padding: 0.8rem;
+font-size: 13px;
+border-radius: 10px;
+color: dimgrey;
+}
+.w-170{width: 170px;}
+
+.input-group {
+display: flex;
+position: relative;}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.input-group input {
+border: 1px solid #ccc;
+border-right: none;
+padding: 0.8rem;
+width: 220px;
+}
+
+.input-group button {
+padding: 0.8rem 1rem;
+color: #767676;
+border: none;
+cursor: pointer;
+position: absolute;
+right: 0;
+background-color: transparent;
+}
+.heading{
+padding: 5% 15% 0px 20px;
+font-size: 35px;
+color: #fff;
+font-weight: 600;
+text-transform: capitalize;
+line-height: 1.3;
+display: flex;
+min-height: 60%;
+margin: auto;
+align-items: center;
+}
+.course-list{
+display: none;
+background-color: #e1dede;
+padding: 15px;
+position: absolute;
+top: 100px;
+height: 100vh;
+overflow: hidden;
+overflow-y: auto;
+padding-bottom: 150px;
+transition: 1s;
+}  
+.card{
+background-color: #fff;
+display: flex;
+gap: 10px;
+box-shadow: inset 0px 0px 5px #b2afaf;
+margin-bottom: 10px;
+border-radius: 6px;
+border: 1px solid lightgrey;
+}
+.card img{width: 40%;object-fit: cover;}
+.card h2{
+font-size: 16px;
+white-space: nowrap;
+padding-top: 10px;
+}
+.card small{
+text-transform: uppercase;
+font-size: 12px;
+}
+.card p{
+font-size: 13px;
+margin: 4px 15px 10px 0px;
+color: #848181;
+height: 65px;
+overflow: hidden;
+}
+.card:hover{
+border-radius: 0px;
+box-shadow: none;
+transition: 1s;
+cursor: pointer;
+}
+    
+</style>
+</head>
+<body>
+<main>
+<header>
+<!--Navbar   -->
+<nav>
+<a href="index.html"> Home </a>
+<a href="#"> Contact Us </a>    
+</nav>    
+    
+<!--Search Form here-->
+<form class="search-form">
+<select class="w-170">
+<option selected value="explore">Explore</option>
+<option value="free">Free Course</option> 
+</select>
+<div class="input-group">
+<input type="search" id="courseSearch" placeholder="Type Course Name...">
+<button type="submit">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 
+1.415-1.414l-3.85-3.85zm-5.242 1.398a5.5 5.5 0 1 1 
+0-11 5.5 5.5 0 0 1 0 11z"/>
+</svg>
+</button>
+</div>
+</form>
+</header>    
+<div class="heading">Find Best & Free courses and job oriented topic by industry experts </div>
+    
+    
+    
+<!--Course List    -->
+<div class="course-list">
+    
+<div class="card">
+<img src="https://apollouniversity.edu.in/blog/wp-content/uploads/2025/02/Computer-Science.jpg" alt="image">
+<div class="detail">
+<h2>Information technology</h2>
+<small>EDX | Course: 1 - 3 Months</small>
+<p>Skills you will again: Computer programming- CS50's Introduction to Computer Science, Introduction to Cyber Security, 3.Web Development Basics, Google IT Automation with Python... </p></div>
+</div>
+    
+
+    
+<div class="card">
+<img src="https://c8.alamy.com/comp/H92F7A/entrepreneurship-tycoon-small-business-enterprise-concept-H92F7A.jpg" alt="image">
+<div class="detail">
+<h2>Business & Enterpreneurship</h2>
+<small>EDX | Course: 1 - 3 Months</small>
+<p>Entrepreneurship in Emerging Economies, Innovation for Entrepreneurs, Fundamentals of Digital Marketing, Business Fundamentals....... </p></div>
+</div>   
+    
+
+    
+<div class="card">
+<img src="https://i.pinimg.com/736x/77/51/cc/7751cc4a19a0f0f98abe18211e90dcdc.jpg" alt="image">
+<div class="detail">
+<h2>Healthcare & Wellness</h2>
+<small>EDX | Course: 1 - 3 Months</small>
+<p>Skills you will again: Introduction to Psychology, COVID-19: Tackling the Novel Coronavirus, Health Informatics on FHIR, Nutrition and Health: Macronutrients and Overnutrition </p></div>
+</div>
+
+    
+<div class="card">
+<img src="https://euc.ac.cy/wp-content/uploads/2019/07/humanities-arts-social-education-e1652166631748.jpg" alt="image">
+<div class="detail">
+<h2>Art & Humanitiesy</h2>
+<small>EDX | Course: 1 - 3 Months</small>
+<p>Skills you will again: Modern Art & Ideas, Shakespeare’s Life and Work, Introduction to Philosophy, Film, Images & Historical Interpretation. </p></div>
+</div>
+    
+    
+    
+
+    
+<div class="card">
+<img src="https://ischoolconnect.com/blog/wp-content/uploads/2021/12/what-is-Environmental-studies.jpg" alt="image">
+<div class="detail">
+<h2>Environmentel Study</h2>
+<small>EDX | Course: 1 - 3 Months</small>
+<p>Skills you will again: The Science of Climate Change, Biodiversity and Conservation, Introduction to Environmental Law and Policy, Global Environmental Management. </p></div>
+</div>
+    
+    
+</div>   
+
+
+</main>
+<script>
+const searchInput = document.getElementById('courseSearch');
+const courseList = document.querySelector('.course-list');
+const search = document.querySelector('.search-form');
+
+searchInput.addEventListener('focus', () => {
+courseList.style.display = 'block';
+search.style.backgroundColor = '#e1dede';
+});
+
+searchInput.addEventListener('blur', () => { 
+setTimeout(() => {
+courseList.style.display = 'none';
+search.style.backgroundColor = 'transparent';
+}, 150);
+});
+
+courseList.addEventListener('mousedown', (e) => {
+e.preventDefault(); // Prevent blur
+});
+</script>
+</body>
+</html>
