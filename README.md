@@ -1,3 +1,2 @@
-# Free of courses-
-My First Project Complete
+# My First Project
  
